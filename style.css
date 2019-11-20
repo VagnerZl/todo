@@ -61,6 +61,7 @@ body {
 }
 
 .column-header {
+  word-wrap:break-word;
     text-align: left;
     font-size: 14px;
     font-weight: 700;
