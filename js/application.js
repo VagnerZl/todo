@@ -1,7 +1,7 @@
 const Application = {
     storageKey: 'todo',
 
-    // Сохраняем текущее состоние в локальное хранилище.
+    // Сохраняем текущее состояние в локальное хранилище.
     save() {
         const object = {
             columns: {
@@ -47,7 +47,7 @@ const Application = {
         localStorage.setItem(Application.storageKey, json)
     },
 
-    // Восстанавливаем текущее состоние из локального хранилища.
+    // Восстанавливаем текущее состояние из локального хранилища.
     load() {
         if (!localStorage.getItem(Application.storageKey)) {
             return
