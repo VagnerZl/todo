@@ -132,6 +132,6 @@ class Column {
     }
 }
 
-Column.idCounter = 4
+Column.idCounter = 1
 Column.dragged = null
 Column.dropped = null

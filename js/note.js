@@ -109,5 +109,5 @@ class Note {
     }
 }
 
-Note.idCounter = 8
+Note.idCounter = 1
 Note.dragged = null
